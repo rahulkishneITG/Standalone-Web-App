@@ -27,6 +27,13 @@ function App() {
           <div className="main-container">
             <Routes>
               <Route
+                path="/"
+                element={
+                  
+                    <h1>Home</h1>
+                }
+              />
+              <Route
                 path="/login"
                 element={
                   <PublicRoute>
